@@ -1,0 +1,8 @@
+{
+  "kind": "quality_decision",
+  "id": "quality_decision-B",
+  "revision": "v1",
+  "period": "2026-11-13",
+  "subject": "sample-A",
+  "state": "pending"
+}

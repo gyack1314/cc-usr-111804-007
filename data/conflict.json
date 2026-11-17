@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-007.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-007.example.test/records/annotation_page-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 155,
+        "sha256": "515a1d5ab7582d93781ab7e5396f03cf53ee241538c592dbf24aad5402a62f3c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-007.example.test/records/annotation_page-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 160,
+        "sha256": "15b850157cb91fcc8fff6ebf3c23b810614c87134f41daf643e537d68e240412"
+      }
+    }
+  ]
+}
