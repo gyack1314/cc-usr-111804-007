@@ -1,8 +1,8 @@
 {
   "kind": "quality_decision",
-  "id": "quality_decision-B",
+  "id": "quality_decision-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "segment": "clip-4",
+  "annotation_revision": "r1",
+  "decision": "pending"
 }

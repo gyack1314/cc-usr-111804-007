@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "annotation_page",
+    "quality_decision"
+  ],
+  "relation_field": "segment",
+  "required_fields": {
+    "annotation_page": [
+      "segment",
+      "raw_digest",
+      "label_page"
+    ],
+    "quality_decision": [
+      "segment",
+      "annotation_revision",
+      "decision"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}
