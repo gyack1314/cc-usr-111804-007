@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-007.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-007.example.test/records/annotation_page-A",
+      "kind": "annotation_page",
+      "required": true
+    },
+    {
+      "url": "https://local-source-007.example.test/records/raw_segment-A",
+      "kind": "raw_segment",
+      "required": true
+    }
+  ],
+  "steps": []
+}
