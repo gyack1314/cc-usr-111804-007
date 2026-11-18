@@ -6,12 +6,14 @@
     {
       "url": "https://local-source-007.example.test/records/annotation_page-A",
       "kind": "annotation_page",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-007.example.test/records/quality_decision-B",
       "kind": "quality_decision",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
