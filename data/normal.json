@@ -29,5 +29,17 @@
         "sha256": "169c39308770ada745f5e889a0bce28992420266b9a5e4c87954f68406738d8d"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-007.example.test/records/annotation_page-A",
+      "kind": "annotation_page",
+      "required": true
+    },
+    {
+      "url": "https://local-source-007.example.test/records/quality_decision-B",
+      "kind": "quality_decision",
+      "required": true
+    }
   ]
 }
