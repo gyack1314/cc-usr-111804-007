@@ -1,0 +1,9 @@
+{
+  "kind": "raw_segment",
+  "id": "raw_segment-A",
+  "revision": "v1",
+  "segment": "clip-4",
+  "raw_digest": "sha256:original-B",
+  "reencoded_on": "2026-11-17",
+  "source_revision": "v2"
+}

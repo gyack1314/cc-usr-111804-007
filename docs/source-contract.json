@@ -1,7 +1,8 @@
 {
   "roles": [
     "annotation_page",
-    "quality_decision"
+    "quality_decision",
+    "raw_segment"
   ],
   "relation_field": "segment",
   "required_fields": {
@@ -14,6 +15,12 @@
       "segment",
       "annotation_revision",
       "decision"
+    ],
+    "raw_segment": [
+      "segment",
+      "raw_digest",
+      "reencoded_on",
+      "source_revision"
     ]
   },
   "source_identity": [
